@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1" width="100%" cellspace="4px">
+        <caption>After Splitting</caption>
+        <tr>
+            <th bgcolor="yellow">Split</th>
+            <th align="center" bgcolor="yellow">into two</th>
+            <th colspan="3"></th>
+            <th colspan="3"></th>
+            <th colspan="2"></th>         
+        </tr>
+        <tr>
+            <td rowspan="2" colspan="2"></td>
+            <td bgcolor="red" colspan="6">Two cells split into...</td>
+            <td rowspan="2" colspan="2"></td>
+        </tr>
+        <tr>
+            <td align="right" bgcolor="red" colspan="6">...one column and two rows</td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td colspan="4" align="right" bgcolor="green">Three cells split into...</td>
+            <td colspan="6" bgcolor="green">...two columns and one row</td>
+        </tr>
+    </table>
+</body>
+</html>
